@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="css/swiper.3.1.7.min.css" />
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="js/swiper.3.1.7.min.js" />
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+		
+		<style>
+		body{background-color: #f5f5f5;}
+		.nav-kc{position: relative;top: 70px;left: 100px;}
+		.nav-kc li{font: bold;font-size: 18px;padding-left: 10px;padding-right: 10px;}
+		.navbar{margin-bottom: 0px;}
+		.nav-kc li:HOVER {background-color: #d9d2e9;}
+		.home-carousel .item{height: 150px;}
+		.navbar-default{margin-bottom: 0px;background-color: none;border: 0px;}
+		.swiper-c1{height: 300px;}
+		.swiper-c1 .swiper-pagination-bullet{width: 12px;height: 12px;}
+		.swiper-c1 .swiper-slide img{width: 100%;} 
+		.swiper-slide{}
+		.title{border-bottom: 1px solid #ccc;}
+		.title .col-md-3{padding-left: 0px;}
+		.title .col-md-9{text-align: right;}
+		.title span:FIRST-CHILD{padding-bottom:10px;border-bottom: 2px solid #3d8749;font-weight: bold;font-size: 14px;color: #666;position: relative;float: left;width: 200px;}
+		.title .right{float:right; }
+		.swiper-c2 .item{padding: 5px; text-align: center;}
+		.swiper-c2 .item img,.swiper-c2 .item-img{height: 100px;width:100px; background-color: green;border-radius: 110px;}
+		.swiper-c2 .swiper-slide{padding: 5px 8px;}
+		.swiper-c2 .swiper-button-next,.swiper-c2 .swiper-button-prev{color: #fff;width: 30px;height: 30px;}
+		.z-name{color: #ebb326}
+		.z-time{color: #969696;}
+		.xckc{margin-top: 20px;padding-left: 40px;padding-right: 40px;}
+		.xckc img{width: 100%;height: auto;}
+		.xckc span{font-size: 12px;}
+		.page-search,.breadcrumb{background-color: #fff;}
+		.breadcrumb>li+li:before{content: "> "}
+		.breadcrumb a{color: #000;}
+		.breadcrumb>.active>a{color: blue;}
+		.page-search .row{padding-top: 10px;padding-bottom: 5px;}
+		</style>
+		
+		<script type="text/javascript">
+		$(document).ready(function(){
+			var mySwiper = new Swiper ('.swiper-c1', {
+			    autoplay: 5000,
+			    grabCursor:true,
+			    lazyLoading:true,
+			    pagination:".swiper-pagination",
+			  });
+			var mySwiper = new Swiper ('.swiper-c2', {
+				autoplay: 9000,
+			    prevButton:'.swiper-button-prev',
+			    nextButton:'.swiper-button-next',
+			    slidesPerView : 6,
+			    slidesPerGroup : 6,
+			  });
+		});
+		</script>
+	</head>
+	<body>
+		
+		<div class="header">
+			<header>
+				<div class="container">
+					<nav class="navbar" role="navigation">
+					    <div class="container-fluid">
+					    <div class="navbar-header">
+					    	<img alt="LOGO" src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=4614221,1780502866&fm=80&w=179&h=119&img.JPEG">
+					    </div>
+					    <div>
+					        <ul class="nav navbar-nav nav-kc">
+					            <li class="active"><a href="#">首页</a></li>
+					            <li><a href="#">学车</a></li>
+					            <li><a href="#">找教练</a></li>
+					            <li><a href="#">驾管</a></li>
+					            <li><a href="#">陪练</a></li>
+					            <li><a href="#">租车</a></li>
+					            <li><a href="#">视频</a></li>
+					            <li><a href="#">联系我们</a></li>
+					            <li><a href="#">论坛</a></li>				            
+					        </ul>
+					    </div>
+					    </div>
+					</nav>
+				</div>
+			</header>
+		</div>
+		
+		<!-- 首页轮播  -->
+		
+		<div class="swiper-container swiper-c1">
+		    <div class="swiper-wrapper">		    
+		        <div class="swiper-slide"><img src="http://bpic.588ku.com/back_pic/00/04/13/75/6398d13d6bfa863c631ff96f55bb863d.jpg!ww1200" alt="简约大气淘宝背景" title="简约大气淘宝背景" /></div>
+		        <div class="swiper-slide"><img src="http://bpic.588ku.com/back_pic/00/08/53/17562a43dac4e41.jpg!ww1200" alt="教育背景" title="教育背景"></div>
+		        <div class="swiper-slide"><img src="http://bpic.588ku.com/back_pic/03/65/44/8057ae8dfe9b121.jpg!ww1200" alt="几何科技背景" title="几何科技背景"></div>
+		    </div>
+		    <div class="swiper-pagination"></div>
+		</div>
+		
+		<div style="margin-top: 30px;"></div>
+		
+		<div class="container">
+			<div class="page-breadcrumd">
+				<ol class="breadcrumb">
+				    <li><a href="index.html">我要快学车</a></li>
+				    <li class="active"><a href="#">陪练</a></li>
+				</ol>
+			</div>
+			
+			<div class="page-search">
+				<div class="row"><div class="col-md-1">培训范围</div><div class="col-md-1">全珠海</div><div class="col-md-1">香洲</div><div class="col-md-1">斗门</div><div class="col-md-1">金湾</div><div class="col-md-1">坦洲</div><div class="col-md-1">横琴</div><div class="col-md-1">高新区</div><div class="col-md-1">珠海周边</div></div>
+				<div class="row"><div class="col-md-1">培训车型</div><div class="col-md-1"><input type="checkbox" />C1</div><div class="col-md-1"><input type="checkbox" />C2</div><div class="col-md-1"><input type="checkbox" />B1</div><div class="col-md-1"><input type="checkbox" />A1</div><div class="col-md-1"><input type="checkbox" />A2</div></div>
+				<div class="row"><div class="col-md-1">培训项目</div><div class="col-md-2"><input type="checkbox" />科目二</div><div class="col-md-2"><input type="checkbox" />科目三</div><div class="col-md-2"><input type="checkbox" />其它 </div></div>
+			</div>
+		</div>
+		
+		
+		
+		
+		<div style="margin-top: 40px;"></div>
+		<!-- 学车视频-->
+		<div class="container" >
+			<div class="row title"><div class="col-md-3"><span>学车视频</span></div><div class="col-md-9">更多>></div></div>
+			<div class="row xckc">
+				<div class="col-md-3">
+					<img alt="" src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=4614221,1780502866&fm=80&w=179&h=119&img.JPEG"><br>
+					<span class="desc">介绍 介绍 介绍 介绍 介绍 介绍 介绍 介绍 介绍 介绍 介绍 介绍</span> 
+				</div>
+				<div class="col-md-3">
+					<img alt="" src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=4614221,1780502866&fm=80&w=179&h=119&img.JPEG"><br>
+					<span class="desc">介绍 介绍 介绍 介绍 介绍 介绍 介绍 介绍 介绍 介绍 介绍 介绍</span> 
+				</div>
+				<div class="col-md-3">
+					<img alt="" src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=4614221,1780502866&fm=80&w=179&h=119&img.JPEG"><br>
+					<span class="desc">介绍 介绍 介绍 介绍 介绍 介绍 介绍 介绍 介绍 介绍 介绍 介绍</span> 
+				</div>
+				<div class="col-md-3">
+					<img alt="" src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=4614221,1780502866&fm=80&w=179&h=119&img.JPEG"><br>
+					<span class="desc">介绍 介绍 介绍 介绍 介绍 介绍 介绍 介绍 介绍 介绍 介绍 介绍</span> 
+				</div>
+			</div>
+			
+		</div>
+		
+		
+		
+		<footer>
+			<div class="tags"><span class="item">报名条件</span><span class="item">联系我们</span><span class="item">常见问题</span><span class="item">驾校场地</span></div>
+		</footer>
+		
+		<style>
+			footer{background-color:#3d3c3c; color: #ffffff;position: relative;min-height: 100px;padding: 10px;margin-top: 60px;}
+			footer .tags{text-align: center;}
+			footer .tags span{padding-right: 20px;border-right: 1px solid #ffffff;padding-left: 20px;font-size: 12px;}
+			footer .tags span:LAST-CHILD{border-right: 0px;}
+		</style>
+	</body>
+</html>
