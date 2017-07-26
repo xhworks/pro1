@@ -6,19 +6,10 @@
 		<link rel="stylesheet" href="css/swiper.3.1.7.min.css" />
 		<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
 		<link rel="stylesheet" href="js/bootstrap.min.3.3.7.css" />
-		<script src="js/swiper.3.1.7.min.js" />
-		<script src="js/jquery.min2.1.1.js" />
-		<script src="js/bootstrap.min.3.3.7.js" />
-	
-		<style>
-		.top{overflow: hidden;}
-		.navbar-nav li.active{background-color: #11376f;}
-		.navbar-nav li.active a{color: #fff;}
-		.navbar-nav li a{color: #000000;}
-		.navbar-nav li a:HOVER {color: #000000;}
-		.sbtitle .title{text-align: center; background-color: #4fabfe;padding-top: 10px;padding-bottom: 10px;border-radius: 20px;}
-		.sbtitle hr{border-color: #4fabfe;border-width: 2px;}
-		</style>
+		<script type="text/javascript" src="js/swiper.3.1.7.min.js"></script>
+		<script type="text/javascript" src="js/jquery.min2.1.1.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.3.3.7.js"></script>
+		<link rel="stylesheet" href="css/all.css" />
 		
 		<script type="text/javascript">
 		$(document).ready(function(){
@@ -39,7 +30,7 @@
 		</script>
 	</head>
 	<body>
-		<div class="">
+		
 			<div class="container">
 				<div class="top "><div 
 					class="col-md-8">欢迎光临快学车网站</div><div 
@@ -51,9 +42,9 @@
 				</div>
 				<hr>
 				
-				<div class="menu">
-					
-					<div class="col-md-4">LOG</div>
+				<div class="header">
+					<div class="row">
+					<div class="col-md-4" style="background-image: url('images/logo1.jpg');background-repeat: no-repeat;background-size:100%;">&nbsp;</div>
 					<div class="col-md-8">
 						<ul class="nav navbar-nav">
 				            <li class="active"><a href="#">首页</a></li>
@@ -65,63 +56,145 @@
 				            <li><a href="#">联系我们</a></li>
 				        </ul>
 					</div>
+					</div>
 				</div>
 			</div>
 					
 			
-			<br>&nbsp;<br>
 			<div class="swiper-container swiper-c1" style="position:relative;left:0px; height: 200px;">
 			    <div class="swiper-wrapper">
-			        <div class="swiper-slide">IMG1</div>
-			        <div class="swiper-slide">IMG2</div>
-			        <div class="swiper-slide">IMG3</div>
+			    	<a href="#" target="_blank" class="swiper-slide" style="background: url('images/banner1.png') center center no-repeat;"></a>
+			    	<a href="#" target="_blank" class="swiper-slide" style="background: url('images/banner2.jpg') center center no-repeat;"></a>
+			    	<a href="#" target="_blank" class="swiper-slide" style="background: url('images/banner3.jpg') center center no-repeat;"></a>
+			        
 			    </div>
 			    <!-- 如果需要分页器 -->
 			    <div class="swiper-pagination"></div>
 			    
 			</div>
 			<div class="container">
-				<div class="sbtitle"><div class="col-md-5"><hr></div><div class="col-md-2 title">最新资讯</div><div class="col-md-5"><hr></div></div>
 				
-				<ul id="myTab" class="nav nav-tabs">
-				    <li class="active"><a href="#newly_topic" data-toggle="tab">通知公告</a></li>
-				    <li><a href="#newly_register" data-toggle="tab">最新报名</a></li>
-				    <li><a href="#newly_graduate" data-toggle="tab">最新拿证</a></li>
-				</ul>
-				<div id="myTabContent" class="tab-content">
-				    <div class="tab-pane fade in active" id="newly_topic">
-				        	xxxxx通知公告
-				    </div>
-				    <div class="tab-pane fade" id="newly_register">
-				        	xxxxx最新报名
-				    </div>
-				    <div class="tab-pane fade" id="newly_graduate">
-				        	xxxxx最新拿证
-				    </div>
+				
+				<div class="home_pane">
+					<div class="sbtitle"><div class="col-md-5"><hr></div><div class="col-md-2 title">最新资讯</div><div class="col-md-5"><hr></div></div>
+					<ul id="myTab" class="nav nav-tabs" style="text-align: center;border: 0px;">
+						<li style="width: 40%">&nbsp;</li>
+					    <li class="active"><a href="#newly_topic" data-toggle="tab">通知公告</a></li>
+					    <li><a href="#newly_register" data-toggle="tab">最新报名</a></li>
+					    <li><a href="#newly_graduate" data-toggle="tab">最新拿证</a></li>
+					    <li style="width: 40%">&nbsp;</li>
+					</ul>
+					<div id="myTabContent" class="tab-content">
+					    <div class="tab-pane fade in active" id="newly_topic">
+					        <div class="row">
+					        	<div class="col-md-4"><div style="background-color: blue;text-align: center;height: 100px;">图片</div></div>
+					        	<div class="col-md-6">
+					        		<div class="row tr_topic"><div class="col-md-7"><i class="fa fa-circle" style="font-size: 9px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;学员怎么样自助在网上约考</div><div class="col-md-3 c2">2017-07-01</div></div>
+					        		<div class="row tr_topic"><div class="col-md-7"><i class="fa fa-circle" style="font-size: 9px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;学员怎么样自助在网上约考</div><div class="col-md-3 c2">2017-07-01</div></div>
+					        		<div class="row tr_topic"><div class="col-md-7"><i class="fa fa-circle" style="font-size: 9px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;学员怎么样自助在网上约考</div><div class="col-md-3 c2">2017-07-01</div></div>
+					        		<div class="row tr_topic"><div class="col-md-7"><i class="fa fa-circle" style="font-size: 9px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;学员怎么样自助在网上约考</div><div class="col-md-3 c2">2017-07-01</div></div>
+					        		<div class="row tr_topic"><div class="col-md-7"><i class="fa fa-circle" style="font-size: 9px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;学员怎么样自助在网上约考</div><div class="col-md-3 c2">2017-07-01</div></div>
+					        		<div class="row tr_topic"><div class="col-md-7"><i class="fa fa-circle" style="font-size: 9px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;学员怎么样自助在网上约考</div><div class="col-md-3 c2">2017-07-01</div></div>
+					        	</div>
+					        </div>
+					    </div>
+					    <div class="tab-pane fade" id="newly_register">
+					        	xxxxx最新报名
+					    </div>
+					    <div class="tab-pane fade" id="newly_graduate">
+					        	xxxxx最新拿证
+					    </div>
+					</div>
+				
+					<div style="text-align: center; " class="more"><button style="">更多>></button> </div>
+				 
+				 	
 				</div>
-				<div style="text-align: center; "><button style="background-color: #fff;;padding: 8px 25px;border: 1px solid #eee;">更多>></button> </div>
-				 
-				 <div class="sbtitle"><div class="col-md-5"><hr></div><div class="col-md-2 title">最新课程</div><div class="col-md-5"><hr></div></div>
 				
-				 <div style="text-align: center; "><button style="background-color: #fff;;padding: 8px 25px;border: 1px solid #eee;">更多>></button> </div>
+				
+				 <div class="home_pane">
+				 	<div class="sbtitle"><div class="col-md-5"><hr></div><div class="col-md-2 title">最新课程</div><div class="col-md-5"><hr></div></div>
+					<div class="row">
+						
+						<div class="col-md-3 class_selects">
+						<a href="#"><img src="images/course_select1.png" /></a>
+						<div class="tqr">商务班</div>
+						<div class="price">7675.0 商务班</div>
+						</div>
+						<div class="col-md-3 class_selects">
+						<a href="#"><img src="images/course_select1.png" /></a>
+						<div class="tqr">商务班</div>
+						<div class="price">7675.0 商务班</div>
+						</div>
+						<div class="col-md-3 class_selects">
+						<a href="#"><img src="images/course_select1.png" /></a>
+						<div class="tqr">商务班</div>
+						<div class="price">7675.0 商务班</div>
+						</div>
+						<div class="col-md-3 class_selects">
+						<a href="#"><img src="images/course_select1.png" /></a>
+						<div class="tqr">商务班</div>
+						<div class="price">7675.0 商务班</div>
+						</div>
+					</div>
+					<div style="text-align: center; margin-top: 20px;margin-bottom: 20px;" class="more"><button style="">更多>></button> </div>
+				</div>
+				
 				 
-				 <div class="sbtitle"><div class="col-md-5"><hr></div><div class="col-md-2 title">精选驾校</div><div class="col-md-5"><hr></div></div>
-				 <div style="text-align: center; "><button style="background-color: #fff;;padding: 8px 25px;border: 1px solid #eee;">更多>></button> </div>
-				 
-				 <div class="sbtitle"><div class="col-md-5"><hr></div><div class="col-md-2 title">最新学车视频</div><div class="col-md-5"><hr></div></div>
-				 <div style="text-align: center; "><button style="background-color: #fff;;padding: 8px 25px;border: 1px solid #eee;">更多>></button> </div>
-				 
-				 
-				 <div class="footer">
-				 	<div class="row" style="text-align: center;">
-				 	<span>报告条件</span><span>联系我们</span><span>报告条件</span><span>常见问题</span><span>淘宝店铺</span>
-				 	<span>驾校场地</span>
-				 	<span>交纳学费</span>
-				 </div>
-				 <p>Copyright@2013版权所有 粤ICP备11069350号-8 赣州驾驶员培训学校</p>
-				 
+				 <div class="home_pane">
+				 	<div class="sbtitle"><div class="col-md-5"><hr></div><div class="col-md-2 title">精选驾校</div><div class="col-md-5"><hr></div></div>
+					<div class="row">
+						
+						<div class="col-md-4 class_selects">
+						<a href="#" title="路通驾校"><img src="images/course_select1.png" /></a>
+						<div class="price">踊驾校</div>
+						</div>
+						<div class="col-md-4 class_selects">
+						<a href="#" title="路通驾校"><img src="images/course_select1.png" /></a>
+						<div class="price">踊驾校</div>
+						</div>
+						<div class="col-md-4 class_selects">
+						<a href="#" title="路通驾校"><img src="images/course_select1.png" /></a>
+						<div class="price">踊驾校</div>
+						</div>
+					</div>
+					<div style="text-align: center; margin-top: 20px;margin-bottom: 20px;" class="more"><button style="">更多>></button> </div>
+				</div>
+				
+				<div class="home_pane">
+				 	<div class="sbtitle"><div class="col-md-5"><hr></div><div class="col-md-2 title">学车视频</div><div class="col-md-5"><hr></div></div>
+					<div class="row">
+						
+						<div class="col-md-3 class_selects">
+						<a href="#" title="定坡起点"><img src="images/course_select1.png" /></a>
+						<div class="price">定坡起点</div>
+						</div>
+						<div class="col-md-3 class_selects">
+						<a href="#" title="定坡起点"><img src="images/course_select1.png" /></a>
+						<div class="price">定坡起点</div>
+						</div>
+						<div class="col-md-3 class_selects">
+						<a href="#" title="定坡起点"><img src="images/course_select1.png" /></a>
+						<div class="price">定坡起点</div>
+						</div>
+						<div class="col-md-3 class_selects">
+						<a href="#" title="定坡起点"><img src="images/course_select1.png" /></a>						
+						<div class="price">定坡起点</div>
+						</div>
+					</div>
+					<div style="text-align: center; margin-top: 20px;margin-bottom: 20px;" class="more"><button style="">更多>></button> </div>
+				</div>
+				
+			
+		</div>
+		 
+		<div class="footer">
+			<div class="container">
+				<ul class="links"><li>报考条件</li><li>联系我们</li><li>常见条件</li><li>淘宝店铺</li><li>驾校场地</li><li>交纳学费</li></ul>
+				<div style="margin-left: 23%;">Copyright@2013版权所有 粤ICP备11069350号-8 赣州驾驶员培训学校</div>
 			</div>
 			
+				 
 		</div>
 		
 	</body>
