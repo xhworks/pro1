@@ -1,25 +1,29 @@
-.top{overflow: hidden;}
-.header{height: 85px;}
-.header .navbar-nav{padding-top: 40px;}
+
+.top{overflow: hidden;padding-top: 20px;}
+.login-links a:FIRST-CHILD{padding-right: 10px;}
+.login-links a:LAST-CHILD{padding-left: 10px;}
+.header{height: 85px;margin-bottom: 20px;}
+
+.header .navbar-nav{padding-top: 40px;float: right;}
 .header .row,.header .row >div{height: 100%}
-.navbar-nav li.active{background-color: #11376f;}
-.navbar-nav li.active a{color: #fff;}
-.navbar-nav li a{color: #000000;}
-.navbar-nav li a:HOVER {color: #000000;}
+.swiper-c1{position:relative;left:0px; height: 400px;margin-bottom: 20px;}
+.navbar-nav li{padding-left: 10px;padding-right: 10px;}
+.navbar-nav li a{color: #000;}
 .sbtitle{margin: 0px;overflow: hidden;margin-bottom: 30px;}
 .sbtitle div{padding-left: 0px;padding-right: 0px;}
 .sbtitle .title{text-align: center; background-color: #4fabfe;padding-top: 10px;padding-bottom: 10px;border-radius: 60px;}
 .sbtitle hr{border-color: #4fabfe;border-width: 2px;}
 #newly_topic .c2{text-align: right;}
 #newly_topic .tr_topic{padding-left: 0px;}
+.more{margin-top: 30px;text-align: center;}
 .more button{background-color: #fff;;border: 1px solid #eee; font-size: 10px;padding-bottom: 6px;padding-top: 6px;padding-left: 25px;padding-right: 23px;}
 .class_selects{overflow: hidden;}
-.class_selects .tqr{position:absolute;top:140px;color:#fff;opacity:0.5; font-size: 20px;background-color: #ff0000;padding-left: 20px;width: 90%;}
+.class_selects .tqr{position:absolute;top:205px;color:#fff;opacity:0.5; font-size: 20px;background-color: #ff0000;padding-left: 20px;width: 92.5%;}
 
 .class_selects img{width: 100%;}
 .class_selects .price{padding-top: 6px;font-weight: bold;}
-.home_pane{margin-top: 10px;margin-bottom: 10px;padding-top: 20px;padding-bottom: 20px;}
-.footer{background-color: #3e3e3e;color: #dde1d2;padding-top: 40px;padding-bottom: 50px;}
+.home_pane{padding-bottom: 20px;}
+.footer{background-color: #3e3e3e;color: #dde1d2;padding-top: 40px;padding-bottom: 50px;margin-top: 20px;}
 .footer .links{overflow: hidden;margin-left: 18%;}
 
 .footer .links li{float: left;padding-left: 20px;padding-right: 20px;border-right: 1px solid #dde1d2;list-style: none;}
