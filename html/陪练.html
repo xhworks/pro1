@@ -16,29 +16,11 @@
 				
 		<style>
 		
-		.breadcrumb{background-color: #fff;}
-		.breadcrumb>li+li:before{content: "> "}
-		.breadcrumb a{color: #000;}
-		.breadcrumb>.active>a{color: blue;}
-		.page-search .row{padding-top: 10px;padding-bottom: 5px;}
+		
 		</style>
 		
 		<script type="text/javascript">
-		$(document).ready(function(){
-			var mySwiper = new Swiper ('.swiper-c1', {
-			    autoplay: 5000,
-			    grabCursor:true,
-			    lazyLoading:true,
-			    pagination:".swiper-pagination",
-			  });
-			var mySwiper = new Swiper ('.swiper-c2', {
-				autoplay: 9000,
-			    prevButton:'.swiper-button-prev',
-			    nextButton:'.swiper-button-next',
-			    slidesPerView : 6,
-			    slidesPerGroup : 6,
-			  });
-		});
+		
 		</script>
 	</head>
 	<body>
@@ -48,16 +30,15 @@
 				<div class="top "><div 
 					class="col-md-8">欢迎光临快学车网站</div><div 
 					class="col-md-4"><div 
-						class="col-md-8" style="text-align: right;"><i class="fa fa-weixin fa-2x"></i>&nbsp;<i class="fa fa-weibo fa-2x"></i></div><div 
-						class="col-md-4" ><a href="">登录</a>|<a href="">注册</a></div>
+						class="col-md-6" style="text-align: right;"><i class="fa fa-weixin"></i>&nbsp;&nbsp;&nbsp;<i class="fa fa-weibo"></i></div><div 
+						class="col-md-6 login-links" ><a href="#">登录</a>|<a href="#">注册</a></div>
 					</div>
 					
 				</div>
-				<hr>
-				
+				<hr>				
 				<div class="header">
 					<div class="row">
-					<div class="col-md-4" style="background-image: url('images/logo1.jpg');background-repeat: no-repeat;background-size:100%;">&nbsp;</div>
+					<div class="col-md-4 "><div class="logo" style="background-image: url('images/logo1.jpg');">&nbsp;</div></div>
 					<div class="col-md-8">
 						<ul class="nav navbar-nav">
 				            <li class="active"><a href="#">首页</a></li>
@@ -72,9 +53,8 @@
 					</div>
 				</div>
 			</div>
-				<br><br>
-			
-			<div class="swiper-container swiper-c1" style="position:relative;left:0px; height: 200px;">
+				
+			<div class="swiper-container swiper-c1">
 			    <div class="swiper-wrapper">
 			    	<a href="#" target="_blank" class="swiper-slide" style="background: url('images/banner1.png') center center no-repeat;"></a>
 			    	<a href="#" target="_blank" class="swiper-slide" style="background: url('images/banner2.jpg') center center no-repeat;"></a>
@@ -85,8 +65,6 @@
 			    <div class="swiper-pagination"></div>
 			    
 			</div>
-			
-			
 		<div class="container">
 			<div class="page-breadcrumd">
 				<ol class="breadcrumb">
@@ -108,14 +86,17 @@
 			
 			<div class="vedio-list">
 				<div class="page-search bg1" style="overflow: hidden;margin-top: 20px;margin-bottom: 20px;" ><div class="col-md-1">排序方式</div>
-					<div class="col-lg-3 sorts"><a href="#" class="sort">综合<i class="fa fa fa-sort-alpha-asc"></i> </a>
-						<a href="#" class="sort">销量 <i class="fa fa-sort-alpha-asc"></i> </a>
-						<a href="#" class="sort">口碑 <i class="fa fa-sort-alpha-desc"></i></a>
-						<a href="#" class="icon" style="margin-left: 20px;"><i class="fa fa-list"></i></a>
-						<a href="#" class="icon"><i class="fa fa-th"></i></a>
-					
+					<div class="col-lg-4 ">
+						<ul class="sorts">
+							<li class="s-item"><a href="#" class="sort">综合<i class="fa fa-sort-alpha-asc"></i> </a></li>
+							<li class="s-item"><a href="#" class="sort">销量<i class="fa fa-sort-alpha-asc"></i> </a></li>
+							<li class="s-item"><a href="#" class="sort">口碑<i class="fa fa-sort-alpha-desc"></i> </a></li>
+							<li class="s-item icon"><a href="#" class="sort"><i class="fa fa-list"></i> </a></li>
+							<li class="s-item icon"><a href="#" class="sort"><i class="fa fa-th"></i> </a></li>
+						</ul>
+						
 					</div>
-					<div class="col-lg-8" style="text-align: right;"><input type="text" />  <a href="#" class="button button-tiny">搜索</a></div>
+					<div class="col-lg-7" style="text-align: right;"><input type="text" />  <a href="#" class="button button-tiny">搜索</a></div>
 				</div>
 				<div class="row">
 					<div class="col-md-4 videio"><a href="#"><img src="images/course_select1.png" /></a><br>珠海广州深圳51学车<i class="fa fa-map-marker"></i><br><br>岑村</div>
