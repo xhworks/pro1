@@ -16,6 +16,10 @@
 .sbtitle div{padding-left: 0px;padding-right: 0px;}
 .sbtitle .title{text-align: center; background-color: #4fabfe;padding-top: 10px;padding-bottom: 10px;border-radius: 60px;color: #fff;font-size: 20px;font-weight: bold;letter-spacing: 10px;}
 .sbtitle hr{border-color: #4fabfe;border-width: 2px;}
+.h-tp1>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{border: 0px;}
+.nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover,.h-tp1>li.active>a{color: #4fabfe;}
+.nav-tabs>li>a:focus, .nav>li>a:hover{background-color: #fff;border: 0px;}
+.h-tp1>li>a{color: #807f7f;}
 .newly-topic{padding-top: 20px;}
 #newly_topic .c2{text-align: right;}
 #newly_topic .tr_topic{padding-left: 0px;padding-bottom: 10px;}
@@ -27,6 +31,8 @@
 .swiper-c2 >.swiper-wrapper >.swiper-slide img{width: 100%;}
 .swiper-c2 .swiper-pagination2{text-align: right; }
 .swiper-c2 .swiper-pagination2 .swiper-pagination-bullet{margin-left: 10px;}
+.swiper-c2 .swiper-pagination2,.swiper-c2 .bottom{position: absolute;z-index: 2;width: 100%;}
+.swiper-c2 .bottom{opacity: 0.6;line-height: 30px;padding-left: 20px;background-color: #fe0000;top: 79.9%;}
 .class_selects img{width: 100%;}
 .class_selects .price{padding-top: 6px;font-weight: bold;}
 .home_pane{padding-bottom: 20px;}
@@ -63,7 +69,7 @@
 
 
 /**
-¿Î³Ì
+ï¿½Î³ï¿½
 **/
 .poster-main{position: relative;width: 900px;height: 270px;margin:0 auto;}
 .poster-main >.poster-list >li{list-style: none;}
