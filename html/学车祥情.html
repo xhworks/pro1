@@ -3,31 +3,16 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		
-		<link rel="stylesheet" href="css/swiper.3.1.7.min.css" />
 		<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
 		<link rel="stylesheet" href="js/bootstrap.min.3.3.7.css" />
-		<script type="text/javascript" src="js/swiper.3.1.7.min.js"></script>
 		<script type="text/javascript" src="js/jquery.min2.1.1.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.3.3.7.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/jquery.carousel.js"></script>
 		<link rel="stylesheet" href="css/all.css" />
 		
-		
-				
-		<style>
-		
-		.breadcrumb{background-color: #fff;}
-		.breadcrumb>li+li:before{content: "> "}
-		.breadcrumb a{color: #000;}
-		.breadcrumb>.active>a{color: blue;}
-		.page-search .row{padding-top: 10px;padding-bottom: 5px;}
-		</style>
-		
-		<script type="text/javascript">
-		
-		</script>
 	</head>
-	<body class="">
+	<body class="bg1">
 	
 		
 		<div class="container">
@@ -45,20 +30,29 @@
 					<div class="col-md-4 "><div class="logo" style="background-image: url('images/logo1.jpg');">&nbsp;</div></div>
 					<div class="col-md-8">
 						<ul class="nav navbar-nav">
-				            <li class="active"><a href="#">首页</a></li>
+				            <li class="active"><a href="首页.html">首页</a></li>
 				            <li><a href="#">学车</a></li>
-				            <li><a href="#">找教练</a></li>
-				            <li><a href="#">找驾校</a></li>
-				            <li><a href="#">陪练</a></li>
-				            <li><a href="#">视频</a></li>
-				            <li><a href="#">联系我们</a></li>
+				            <li><a href="陪练.html">找教练</a></li>
+				            <li><a href="学车祥情.html">找驾校</a></li>
+				            <li><a href="陪练.html">陪练</a></li>
+				            <li><a href="最新报名列表.html">视频</a></li>
+				            <li><a href="联系我们.html">联系我们</a></li>
 				        </ul>
 					</div>
 					</div>
 				</div>
 			</div>
-				
-			<div class="swiper-container swiper-c1">
+			<div class="carousel slide swiper-c1" id="banner_carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#banner_carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#banner_carousel" data-slide-to="1"></li>
+					<li data-target="#banner_carousel" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active"><a href="#" target="_blank"><img src="images/banner1.png" alt="First slide"></a></div>
+					<div class="item"><img src="images/banner2.jpg" alt="First slide"></div>
+					<div class="item"><img src="images/banner3.jpg" alt="First slide"></div>
+				</div>
 			    <div class="swiper-wrapper">
 			    	<a href="#" target="_blank" class="swiper-slide" style="background: url('images/banner1.png') center center no-repeat;"></a>
 			    	<a href="#" target="_blank" class="swiper-slide" style="background: url('images/banner2.jpg') center center no-repeat;"></a>
@@ -70,25 +64,25 @@
 			    
 			</div>
 			<div class="concat-page detail">
-				<div class="container">
+				<div class="container bg2">
 					<div class="page-breadcrumd">
 						<ol class="breadcrumb">
 						    <li><a href="index.html">我要快学车</a></li>
 						    <li class="active"><a href="#">详情</a></li>
 						</ol>
 					</div>
-					
+					<div class="bg1" style="height: 20px;width: 115%;position: relative;left: -20px;"></div>
 					<div class="detail-panel">
 						<div class="row ">
 							<div class="col-lg-4"><img src="images/himg1.jpg"></div>
 							<div class="col-lg-8 crondi">
-								<div class="p-desc">￥12800.00 大车A1/A2/A3/B1/B2</div>
-								<div><span>拿证时间:</span><span>2个月</span></div>
-								<div><span>考试次数:</span><span>2次</span></div>
-								<div><span>考试天数:</span><span>7~15天</span></div>
-								<div><span>通过率:</span><span>非常高</span></div>
-								<div><span>连考方式:</span><span>文科后35天连考科目二</span></div>
-								<div><a class="btn btn1">报名</a></div>
+								<div class="p-desc"><span class="price">￥12800.00</span> 大车A1/A2/A3/B1/B2</div>
+								<p><span>拿证时间:</span><span>2个月</span></p>
+								<p><span>考试次数:</span><span>2次</span></p>
+								<p><span>考试天数:</span><span>7~15天</span></p>
+								<p><span>通过率:</span><span>非常高</span></p>
+								<p><span>连考方式:</span><span>文科后35天连考科目二</span></p>
+								<p><a class="btn btn1">报名</a></div>
 							</div>
 						</div>
 						<div class="detail-inf">

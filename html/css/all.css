@@ -60,14 +60,30 @@
 .page-search{padding: 10px;}
 .page-search .row{padding-bottom: 20px;}
 .bg1{background-color: #f2f2f2;}
-.sorts{padding-left: 0px;}
-.sorts>li{list-style: none;display: inline;padding-right: 10px;}
-.sorts>li .fa{padding-left: 5px;}
-.sorts>li a{text-decoration: none;}
-.videio img{width: 100%;height: auto;}
+.page-sorts{overflow: hidden;margin-top: 20px;margin-bottom: 20px;padding-top: 15px;padding-bottom: 10px;}
+.sorts a{text-decoration: none;margin-right: 15px;}
+.sorts .nav{float: left;position: relative;left: 260px;overflow: hidden;}
+
+.sorts .show-type .nav{border: 0px;}
+.sorts .show-type .nav-tabs>li>a,
+.sorts .show-type .nav-tabs>li.active>a,
+.sorts .show-type .nav-tabs>li.active>a:focus,
+.sorts .show-type .nav-tabs>li.active>a:hover{border: 0px;background-color: inherit;cursor:pointer;}
+.sorts .show-type .nav>li>a{padding: 0px;}
+.sorts .show-type .nav-tabs>li>a{color: #808080;margin-right: 20px;}
+.sorts .show-type .nav-tabs>li.active>a{color: #199ed8;}
+.pl-tabcontent>.list-type .pl-left>img{width:280px;height: auto; }
+.pl-tabcontent>.list-type .pl-right .price{color: #ff8400;font-size: 20px;font-weight: bold;letter-spacing: 1px;border-bottom: #e3e3e3 1px dashed;padding-bottom: 15px;margin-bottom: 15px;}
+.pl-tabcontent>.list-type .pl-right .price>.jl-name{color: #666;}
+.jl-price{padding-right: 100px;text-align: right;}
+.pl-tabcontent>.list-type .pl-right .txtdesc{font-size: 18px;color: #666;}
+.pl-tabcontent>.list-type .pl-right .fa{color: #5886fe;margin-right: 15px;}
+.pl-tabcontent>.list-type .txtdesc{padding-bottom: 12px;}
+.pl-tabcontent>.list-type>.row{padding-bottom: 30px;}
 
 .concat-page{background-color: #f2f2f2;padding: 0px;padding-top: 20px;}
 .cl-panel ul>li{list-style: none;padding: 10px;width: 100%;margin: 0px;text-align: center;}
+.cl-panel ul>li a{text-decoration: none;color: inherit;}
 
 .cl-panel ul{background-color: #fff;width: 160px;padding: 0px;color: #fff;}
 
@@ -75,7 +91,10 @@
 .cl-panel ul>.cl-2{background-color: #199ed8;}
 .cl-panel ul>li:LAST-CHILD{background-color: #fff;color: #000;}
 .cr-panel{background-color: #fff;padding-left: 20px;padding-right: 20px;}
-
+.newly-list>.row{padding-left: 30px;padding-bottom: 40px;}
+.newly-list>.row .rdesc{padding-top: 20px;}
+.high-search{float: right;padding-right: 40px;}
+.high-p-s{display: none;}
 
 /**
 �γ�
@@ -91,18 +110,20 @@
 .poster-main .poster-btn{position: absolute;height: 100%;width:100px;top: 0px;z-index: 10;opacity: 0.5;}
 
 .poster-main .poster-prev-btn{ left: 0px; }
+.bg2{background-color: #fff;}
 
 .poster-main .poster-next-btn{right: 0px; }
 .concat .fa{color: #199ed8;margin-right: 10px;font-size: 18px;}
 .cr-panel h4{margin-bottom: 20px;}
 .concat li{padding-bottom: 10px;list-style: none;padding-top: 5px;}
-.btn1{border: 1px solid #f2f2f2;padding-left: 30px;padding-right: 30px;}
-.detail .detail-panel{background-color: #fff;padding-left: 20px;padding-top: 20px;}
+.btn1{border: 1px solid #f2f2f2;padding-left: 30px;padding-right: 30px;margin-top: 20px;}
+.detail .detail-panel{background-color: #fff;padding-left: 20px;padding-top: 40px;}
 .detail .detail-panel.crondi >div{padding-bottom: 5px;}
 .detail .detail-panel .crondi >div>span:FIRST-CHILD{width: 80px;display:inline-block;}
-.detail .detail-panel .p-desc{padding-bottom: 20px;}
-.detail .detail-panel .crondi >div:LAST-CHILD {margin-top: 15px;}
-.detail-inf .d-title{border-bottom: 1px solid #f2f2f2;margin-right: 8px;padding-top: 30px;}
+.detail .detail-panel .p-desc{padding-bottom: 20px;font-size: 18px;color: #666;font-weight: bold;}
+.detail .detail-panel .p-desc>.price{color: #ff8400;display: inline;margin-right: 30px;}
+.detail .detail-panel .crondi>p{padding-left: 10px;}
+.detail-inf .d-title{border-bottom: 1px solid #f2f2f2;margin-right: 8px;padding-top: 30px;margin-bottom: 20px;background-color: #fff;}
 .detail-pingru{padding-top: 50px;overflow: hidden;}
 .detail-pingru .d-title .btn,.detail-inf .d-title .btn{padding-left:40px;padding-right:40px;border-radius:0px;color:#fff; background-color: #199ed8;}
 .detail-pingru .row{border-bottom: 1px solid #f2f2f2;padding: 0px;margin: 10px;padding-bottom: 20px;padding-top: 20px;vertical-align: middle;}
