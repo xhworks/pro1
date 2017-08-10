@@ -1,7 +1,18 @@
-
-.top{overflow: hidden;padding-top: 20px;}
-.top div{padding: 0px;}
-.login-links{letter-spacing: 6px;text-align: right;}
+.xc>.topv{background-color: #fff;padding-top: 10px;padding-left: 10px;padding-right: 10px;}
+.xc{padding: 0px;}
+.bg2{background-color: #fff;}
+.thr{overflow: hidden;}
+.topv .fa{margin-right: 15px;}
+.topv .rg1{margin-right: 13px;}
+.topv .rg2{margin-left: 13px;margin-right: 5px;}
+.topv .topr{text-align: right;}
+.top{padding-top: 20px;height: 20px;background-color: #fff;}
+.top div{background-color: #fff;}
+.top .top-r>div{display: inline;background-color: #fff;}
+.top .top-r{text-align: right;}
+.top .top-r>div:FIRST-CHILD{margin-right: 20px;}
+.login-links{letter-spacing: 6px;text-align: right;margin-left: 30px;}
+.xc .header{margin-bottom: 0px;}
 .login-links a:FIRST-CHILD{padding-right: 10px;}
 .login-links a:LAST-CHILD{padding-left: 10px;}
 .header{margin-bottom: 20px;}
@@ -56,7 +67,8 @@
 		.breadcrumb a{color: #000;}
 		.breadcrumb>.active>a{color: blue;}
 		
-		
+.top .popover {width: 250px;overflow: hidden;border-radius: 0px;z-index: 13;}
+.top .popover img{width: 100%;height: auto;}
 .page-search{padding: 10px;}
 .page-search .row{padding-bottom: 20px;}
 .bg1{background-color: #f2f2f2;}
@@ -77,9 +89,17 @@
 .pl-tabcontent>.list-type .pl-right .price>.jl-name{color: #666;}
 .jl-price{padding-right: 100px;text-align: right;}
 .pl-tabcontent>.list-type .pl-right .txtdesc{font-size: 18px;color: #666;}
+.pl-tabcontent>.list-type .pl-right .txtdesc.address{padding-left: 10px;}
+.pl-tabcontent>.list-type .pl-right .txtdesc.address>.fa{margin-left: 15px;}
 .pl-tabcontent>.list-type .pl-right .fa{color: #5886fe;margin-right: 15px;}
 .pl-tabcontent>.list-type .txtdesc{padding-bottom: 12px;}
 .pl-tabcontent>.list-type>.row{padding-bottom: 30px;}
+.pl-tabcontent .pl_grid_r{font-size: 13px;}
+.pl-tabcontent .pl_grid_r>.title{font-weight: bold;height: 40px;text-overflow: -o-ellipsis-lastline;overflow: hidden;-webkit-line-clamp: 2;-webkit-box-orient: vertical;max-width: 300px;}
+.pl-tabcontent .pl_grid_r>.price,.pl-tabcontent .pl_grid_r>.address,.pl-tabcontent .pl_grid_r>.title{padding-top: 5px;}
+.pl-tabcontent .pl_grid_r>.address>i{margin-left: 10px;font-size: 16px;}
+.pl-tabcontent .pl_grid_r>.price{color: #ff8400;font-size: 20px;letter-spacing: 1px;}
+
 
 .concat-page{background-color: #f2f2f2;padding: 0px;padding-top: 20px;}
 .cl-panel ul>li{list-style: none;padding: 10px;width: 100%;margin: 0px;text-align: center;}
