@@ -11,13 +11,13 @@ $(document).ready(function(){
 	
 	$('.class-course').carousel({});
 	
-	$(".topv .fa-weixin").popover({
+	$(".top .fa-weixin").popover({
 		trigger : 'hover',
 		html:true,
 		placement:'bottom',
 		content:'<div><img src="images/course_select1.png"/></div>'
 	});
-	$(".topv .fa-weibo").popover({
+	$(".top .fa-weibo").popover({
 		trigger : 'hover',
 		html:true,
 		placement:'bottom',
