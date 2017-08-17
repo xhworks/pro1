@@ -1,3 +1,23 @@
+.h-right{padding-right: 0px;padding-left: 30px;}
+.hot-teacher{margin-top: 50px;}
+.hot-teacher,.hot-classes {border: 1px solid #c4cec4;border-radius: 10px;padding-bottom: 20px;}
+.hot-teacher .title,.hot-classes .title{background-color: #cecece;text-align: center;font-weight: bold;font-size: 14px;margin-bottom: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;line-height: 30px;}
+.hot-teacher .carousel,.hot-classes .carousel{padding-left: 10px;padding-right: 10px;}
+.hot-teacher .carousel .hot-item{text-align: center;}
+.hot-teacher .carousel .hot-item img{width: 50%;}
+.hot-teacher .carousel-inner{height: 530px;}
+.hot-classes .carousel-inner{height: 590px;}
+.hot-teacher .carousel-inner .hot-item,.hot-classes .carousel-inner .hot-item{margin-bottom: 20px;}
+.hot-teacher .carousel-control,.hot-classes .carousel-control{position: relative;top: 200px;width: 20px;}
+.hot-teacher .swiper-pagination,.hot-classes .swiper-pagination{text-align: center;}
+@media all and (transform-3d) , ( -webkit-transform-3d ) {
+	.hot-teacher .carousel-inner>.item.active.right,.hot-teacher .carousel-inner>.item.next,
+	.hot-classes .carousel-inner>.item.active.right,.hot-classes .carousel-inner>.item.next {bottom: 0;-webkit-transform: translate3d(0, 100%, 0);transform: translate3d(0, 100%, 0)}
+	.hot-teacher .carousel-inner>.item.active.left,.hot-teacher .carousel-inner>.item.prev,
+	.hot-classes .carousel-inner>.item.active.left,.hot-classes .carousel-inner>.item.prev {bottom: 0;-webkit-transform: translate3d(0, -100%, 0);transform: translate3d(0, -100%, 0);}
+}
+.hot-teacher .swiper-pagination .fa,.hot-classes .swiper-pagination .fa{font-size: 30px;color: #c4c4c4;}
+.hot-teacher .swiper-pagination>a:FIRST-CHILD,.hot-classes .swiper-pagination>a:FIRST-CHILD{margin-right: 40px;}
 .xc>.topv{background-color: #fff;padding-top: 10px;padding-left: 10px;padding-right: 10px;}
 .xc{padding: 0px;}
 .bg2{background-color: #fff;}
@@ -136,17 +156,20 @@
 .concat .fa{color: #199ed8;margin-right: 10px;font-size: 18px;}
 .cr-panel h4{margin-bottom: 20px;}
 .concat li{padding-bottom: 10px;list-style: none;padding-top: 5px;}
-.btn1{border: 1px solid #f2f2f2;padding-left: 30px;padding-right: 30px;margin-top: 20px;}
-.detail .detail-panel{background-color: #fff;padding-left: 20px;padding-top: 40px;}
-.detail .detail-panel.crondi >div{padding-bottom: 5px;}
-.detail .detail-panel .crondi >div>span:FIRST-CHILD{width: 80px;display:inline-block;}
-.detail .detail-panel .p-desc{padding-bottom: 20px;font-size: 18px;color: #666;font-weight: bold;}
-.detail .detail-panel .p-desc>.price{color: #ff8400;display: inline;margin-right: 30px;}
-.detail .detail-panel .crondi>p{padding-left: 10px;}
+.btn1{border: 1px solid #c4c4c4;padding-left: 30px;padding-right: 30px;margin-top: 20px;}
+.detail-panel{background-color: #fff;padding-top: 40px;}
+.detail-panel.crondi >div{padding-bottom: 5px;}
+.detail-panel .crondi >div>span:FIRST-CHILD{width: 80px;display:inline-block;}
+.detail-panel .p-desc{padding-bottom: 20px;font-size: 18px;color: #666;font-weight: bold;}
+.detail-panel .p-desc>.price{color: #ff8400;display: inline;margin-right: 30px;}
+.detail-panel .crondi>p{padding-left: 10px;}
 .detail-inf .d-title{border-bottom: 1px solid #f2f2f2;margin-right: 8px;padding-top: 30px;margin-bottom: 20px;background-color: #fff;}
 .detail-pingru{padding-top: 50px;overflow: hidden;}
 .detail-pingru .d-title .btn,.detail-inf .d-title .btn{padding-left:40px;padding-right:40px;border-radius:0px;color:#fff; background-color: #199ed8;}
-.detail-pingru .row{border-bottom: 1px solid #f2f2f2;padding: 0px;margin: 10px;padding-bottom: 20px;padding-top: 20px;vertical-align: middle;}
+.detail-pingru .row{border-bottom: 1px solid #d8d6d6;padding: 0px;margin: 10px;padding-bottom: 20px;padding-top: 20px;vertical-align: middle;}
 .detail-pingru .row>div{padding: 0px;}
 .detail-pingru .row>div.d-huiyuan{text-align: right;padding-right: 40px;}
+.xc-appraise{border: 1px solid #d8d6d6;padding: 10px;overflow: hidden;margin-right: 10px;}
+.xc-appraise .pr-text{border: 1px solid #d8d6d6;}
+.sub-radio{display: inline; overflow: hidden;position: absolute;left: 80%;top: 155px;}
 .p-leve .i-l{margin-right: 40px;display: inline-block;}
