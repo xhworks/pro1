@@ -1,3 +1,4 @@
+
 .h-right{padding-right: 0px;padding-left: 30px;}
 .hot-teacher{margin-top: 50px;}
 .hot-teacher,.hot-classes {border: 1px solid #c4cec4;border-radius: 10px;padding-bottom: 20px;}
@@ -122,15 +123,12 @@
 
 
 .concat-page{background-color: #f2f2f2;padding: 0px;padding-top: 20px;}
-.cl-panel ul>li{list-style: none;padding: 10px;width: 100%;margin: 0px;text-align: center;}
-.cl-panel ul>li a{text-decoration: none;color: inherit;}
-
-.cl-panel ul{background-color: #fff;width: 160px;padding: 0px;color: #fff;}
-
-.cl-panel ul>li:FIRST-CHILD{background-color: #11376f;}
-.cl-panel ul>.cl-2{background-color: #199ed8;}
-.cl-panel ul>li:LAST-CHILD{background-color: #fff;color: #000;}
-.cr-panel{background-color: #fff;padding-left: 20px;padding-right: 20px;}
+.cl-panel .nav-tabs{background-color: #fff;width: 160px;padding: 0px;text-align: center;}
+.cl-panel .nav-tabs>li{width: 100%;text-align: center;}
+.cl-panel .nav-tabs>li>a{color: #000;}
+.cl-panel .nav-tabs>li.active,.cl-panel .nav-tabs>li.active>a{background-color: #199ed8;color: #fff;font-weight: bold;}
+.cl-panel .nav-tabs>li.active>a, .cl-panel .nav-tabs>li.active>a:focus, .cl-panel .nav-tabs>li.active>a:hover{border: 0px;}
+.cl-panel .nav-tabs>li>a{cursor: pointer;}
 .newly-list>.row{padding-left: 30px;padding-bottom: 40px;}
 .newly-list>.row .rdesc{padding-top: 20px;}
 .high-search{float: right;padding-right: 40px;}
