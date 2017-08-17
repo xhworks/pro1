@@ -116,8 +116,10 @@
 .pl-tabcontent>.list-type .txtdesc{padding-bottom: 12px;}
 .pl-tabcontent>.list-type>.row{padding-bottom: 30px;}
 .pl-tabcontent .pl_grid_r{font-size: 13px;}
-.pl-tabcontent .pl_grid_r>.title{font-weight: bold;height: 40px;text-overflow: -o-ellipsis-lastline;overflow: hidden;-webkit-line-clamp: 2;-webkit-box-orient: vertical;max-width: 300px;}
+.pl-tabcontent .pl_grid_r>.title{font-weight: bold;height: 40px;text-overflow: -o-ellipsis-lastline;overflow: hidden;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
 .pl-tabcontent .pl_grid_r>.price,.pl-tabcontent .pl_grid_r>.address,.pl-tabcontent .pl_grid_r>.title{padding-top: 5px;}
+.pl-tabcontent .pl_grid_r>.address{text-align: right;}
+.pl-tabcontent .pl_grid_r>.title,.pl-tabcontent .pl_grid_r>.address{max-width: 300px;}
 .pl-tabcontent .pl_grid_r>.address>i{margin-left: 10px;font-size: 16px;}
 .pl-tabcontent .pl_grid_r>.price{color: #ff8400;font-size: 20px;letter-spacing: 1px;}
 
